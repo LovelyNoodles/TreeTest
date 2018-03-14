@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 import com.tree.binary.model.TreeNode;
 
@@ -15,10 +16,20 @@ public class PathSum {
 		public boolean hasPathSum(TreeNode root, int sum) {
 			
 			// recursive
-			return method1(root, sum);
+//			return method1(root, sum);
 			
+			// stack
+			return method2(root, sum);
 		}
 		
+		private boolean method2(TreeNode root, int sum) {
+			
+			Stack<TreeNode> stack = new Stack<TreeNode>();
+			
+			
+			return false;
+		}
+
 		private boolean method1(TreeNode root, int sum) {
 			if (root == null) {
 				return false;
