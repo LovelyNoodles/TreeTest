@@ -1,4 +1,4 @@
-package com.tree.binary.conclusion;
+package com.tree.binary.conclusion.buildTree;
 
 import java.io.BufferedReader;
 import java.io.IOException;
